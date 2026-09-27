@@ -1,0 +1,17 @@
+{
+  "name": "kimoitv-stremio-addon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stremio catalog/search addon for KimoiTV with source-page link-out.",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "stremio-addon-sdk": "^1.6.0"
+  }
+}
